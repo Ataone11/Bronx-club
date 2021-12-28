@@ -1,0 +1,14 @@
+GET http://localhost:4000/plan
+
+### create plan
+POST http://localhost:4000/plans
+Content-Type: application/json
+
+{
+ "name": "Premium Plan",
+  "pricestandar": "$80.00",
+  "price3month": "$140.00",
+  "price12month": "$500.00",
+  "include": "Pool,Sauna,Jacuzzi 10_personal_workouts Group_workouts",
+  "imgUrl":"https://statics-cuidateplus.marca.com/cms/styles/natural/azblob/mujer-hace-abdominales.jpg?itok=ZvabbZlP"
+}

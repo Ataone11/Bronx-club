@@ -1,0 +1,26 @@
+GET http://localhost:4000/usuarios
+
+### create video
+POST http://localhost:4000/usuarios
+Content-Type: application/json
+
+{
+  "name": "porqueee",
+  "last_name": "vergel",
+  "address": "atari",
+  "mensage": "asdalsdkfhjkasdfjksadfhjadfhs"
+}
+
+### GET VIDEO
+GET http://localhost:4000/usuarios/61a4069aa7f7561e89ac9db8
+
+### DELETE VIDEO
+DELETE http://localhost:4000/videos/5f810077ea69c100198323c0
+
+### UPDATE
+PUT http://localhost:4000/videos/61391fe64b08cec2442bb506
+Content-Type: application/json
+
+{
+  "title": "Hello updated"
+}
